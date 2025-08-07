@@ -1,0 +1,33 @@
+# VS Code 设置目录
+.vscode/
+*.code-workspace
+
+# 忽略 macOS 系统文件
+.DS_Store
+**/.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Node / Python / Java 等常用忽略
+node_modules/
+dist/
+build/
+env/
+.env
+*.log
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# 可选保留 VS Code 部分配置，同步团队设置
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# 自定义忽略规则
+# 添加你想排除的文件或目录
+oracle-xe-11.2.0-1.0.x86_64.rpm.zip
